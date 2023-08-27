@@ -4,7 +4,9 @@ import Portfolio from './Components/Portfolio';
 function App() {
   return (
     <>
-    <div> Your Avalanche C-Chain Portfolio tracker</div>
+    <div> 
+      <h1>Your Avalanche Token Portfolio Visualizer</h1>
+      </div>
     <Portfolio/>
     </>
   );
