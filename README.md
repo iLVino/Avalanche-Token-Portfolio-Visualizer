@@ -1,6 +1,6 @@
 # Portfolio Visualizer
 
-This repository contains a React application that allows you to visualize the historical value of tokens in a given wallet address using Covalent API data and Recharts library.
+This repository contains a React application that allows you to visualize the historical value of tokens on the Avalanche C-Chain in a given wallet address using Covalent API data and Recharts library.
 
 
 ## Introduction
