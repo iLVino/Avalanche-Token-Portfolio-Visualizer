@@ -52,10 +52,3 @@ To run this application locally, follow these steps:
 
 5. Each token is represented by a different color on the line chart.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
-
----
-
-Feel free to contribute to the project by submitting issues or pull requests. If you have any questions or need further assistance, please contact [your-email@example.com](mailto:your-email@example.com). Happy coding!
