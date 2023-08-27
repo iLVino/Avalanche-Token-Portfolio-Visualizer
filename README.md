@@ -1,54 +1,38 @@
-# Portfolio Visualizer
-
-This repository contains a React application that allows you to visualize the historical value of tokens on the Avalanche C-Chain in a given wallet address using Covalent API data and Recharts library.
-
+# Avalanche Token Portfolio Visualizer
 
 ## Introduction
 
-Portfolio Visualizer is a React application that fetches token portfolio data from the Covalent API based on a provided wallet address. It then uses the Recharts library to display the historical value of each token in the portfolio over time in the form of a line chart.
+The Avalanche Token Portfolio Visualizer is a dynamic and versatile React application, tailored to cater to the diverse needs of users within the Avalanche ecosystem. With a robust integration of React's capabilities, Covalent APIs, and added enhancements, this project now empowers users to delve even deeper into the historical value of tokens not only on the Avalanche C-Chain but across various Avalanche subnets. The seamless collaboration of technology and innovation opens doors to enhanced insights and informed decisions for token holders.
 
-## Setup
+## Key Features
 
-To run this application locally, follow these steps:
+- **Enhanced Chain Selection**:  users can now select not just the Avalanche C-Chain, but also explore token values on various Avalanche subnets, thanks to the expanded list of available chains.
 
-1. Clone the repository:
+- **Seamless Interface Experience**: Powered by React, the application boasts an intuitive and responsive interface, ensuring users enjoy a seamless experience while navigating through various features.
 
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-   ```
+- **Covalent APIs for Comprehensive Data**: The integration with Covalent APIs remains pivotal, allowing the application to provide users with comprehensive and accurate historical token pricing data across the Avalanche ecosystem.
 
-2. Install the dependencies:
+- **Extended Input Field**: The "Enter wallet address" input field has been extended and refined to offer more space, ensuring user convenience during input.
 
-   ```bash
-   npm install
-   ```
+## How It Works
 
-3. Obtain a Covalent API key:
-   
-   You'll need to sign up for a Covalent API key to fetch the necessary data. Once you have your API key, create a `.env` file in the root directory of the project and add your key:
+1. **Chain Selection**: Users can choose the specific Avalanche chain or subnet they wish to explore. The extended list of available chains includes various subnets alongside the Avalanche C-Chain.
 
-   ```
-   REACT_APP_COVALENT_API_KEY=your-api-key
-   ```
+2. **User Interaction**: Similar to the earlier version, users input a wallet address within the chosen chain or subnet, initiating the data retrieval process.
 
-4. Run the application:
+3. **Covalent API Integration**: The application communicates with the chosen Covalent API to retrieve historical token pricing data for the provided wallet address.
 
-   ```bash
-   npm start
-   ```
+4. **Data Transformation**: The fetched data undergoes transformation to facilitate clear and effective visualization, enabling users to discern patterns and trends in token value evolution.
 
-5. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to see the Portfolio Visualizer in action.
+5. **Visualization with React and Recharts**: React, in conjunction with the Recharts library, crafts interactive line charts that vividly depict the historical trajectory of each token's value. The Y-axis is now labeled as "Value in USD" for user clarity.
 
-## Usage
+## Get Started
 
-1. On the Portfolio Visualizer webpage, you'll see an input box labeled "Enter wallet address." 
+To embark on this enhanced visualization journey:
 
-2. Input the wallet address for which you want to visualize the portfolio data.
-
-3. Click the "Submit" button.
-
-4. The application will fetch the portfolio data using the Covalent API and generate a line chart using the Recharts library to display the historical value of each token in the portfolio over time.
-
-5. Each token is represented by a different color on the line chart.
+1. Clone the repository and navigate to the project directory.
+2. Install dependencies using `npm install`.
+3. Acquire a Covalent API key and add it to your `.env` file.
+4. Launch the application using `npm start`.
+5. Access the application via [http://localhost:3000](http://localhost:3000), select the desired chain or subnet, input your wallet address, and uncover insightful visualizations.
 
